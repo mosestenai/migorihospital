@@ -1,0 +1,98 @@
+.test{
+font-size:25px;
+font-family: "Brush Script MT", cursive;
+}
+.nav{
+	display: flex;
+	justify-content: space-around;
+	align-item: center;
+	min-height: 8vh;
+	
+}
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+}
+.nav-links a{
+    background-color:;
+	padding:5px;
+	border:1px solid black;
+	color:navy;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 11px;
+	border-radius:5px;
+}
+.nav-links a:hover{
+background-color:blue;
+color:white;
+}
+.error {
+	width:92%;
+	margin:0px auto;
+	padding: 10px;
+	border: 1px solid #a94442;
+	color: #FF0000;
+	background: #f2dede;
+	border-radius:5px;
+	text-align:left;
+}
+.header {
+	width: 50%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #FF0066;
+	text-align: center;
+	border: 1px solid #B0CDE;
+	border-bottom:none;
+	border-radius:10px 10px 10px 10px;
+	padding:20px;
+}
+.red, .content{
+	width:100%;
+	margin:0px auto;
+	padding: 3px;
+	border:0px solid #B0C4DE;
+	background:white;
+	border-radius:0px;
+}
+form, .content{
+	width:50%;
+	margin:0px auto;
+	padding: 20px;
+	border:0px solid #B0C4DE;
+	background:white;
+	border-radius:0px 0px 10px;
+}
+.input-group label {
+	display:block;
+	text-align:left;
+	margin:3px;
+}
+.input-group input {
+	height:30px;
+	width:93%;
+	padding:5px 10px;
+	font-size:16px;
+	border-radius:5px;
+	border:1px solid teal;
+}
+.input-group2 input {
+	height:25px;
+	width:20%;
+	padding:5px 10px;
+	font-size:16px;
+	border-radius:5px;
+	border:1px solid teal;
+}
+.loginbtn {
+	padding:10px;
+	font-size:15px;
+	color:white;
+	background:teal;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+}
